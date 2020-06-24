@@ -13,7 +13,6 @@ def add_element_to_end_of_array(array, element)
   puts avatar.inspect
 end
 
-add_element_to_end_of_array
 def add_element_to_start_of_array(array, element)
   avatar = ["Water", "Earth", "Fire", "Air"]
   
