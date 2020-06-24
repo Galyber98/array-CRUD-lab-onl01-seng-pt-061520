@@ -7,10 +7,10 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  avatar = ["Water", "Earth", "Fire", "Air"]
-  
   avatar << "Blood Bending!"
   puts avatar.inspect
+  
+  avatar 
 end
 
 def add_element_to_start_of_array(array, element)
