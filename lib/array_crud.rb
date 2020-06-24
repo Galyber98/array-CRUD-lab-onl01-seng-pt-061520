@@ -17,7 +17,7 @@ def add_element_to_start_of_array(array, element)
   avatar = ["Water", "Earth", "Fire", "Air"]
   
   avatar.unshift("Blood Bending!")
-  puts avatar.inspect
+  puts avatar.inspect("Blood Bending")
 end
 
 def remove_element_from_end_of_array(array)
