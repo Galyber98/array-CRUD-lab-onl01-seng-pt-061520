@@ -9,7 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   avatar = ["Water", "Earth", "Fire", "Air"]
   
-  avatar << "Blood Bending"
+  avatar << "Blood Bending!"
   puts avatar.inspect
 end
 
