@@ -1,17 +1,23 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  avatar = ["Water", "Earth", "Fire", "Air"]
 end
 
 def add_element_to_end_of_array(array, element)
+  avatar = ["Water", "Earth", "Fire", "Air"]
   
+  avatar << "Blood Bending"
+  puts avatar.inspect
 end
 
 def add_element_to_start_of_array(array, element)
+  avatar = ["Water", "Earth", "Fire", "Air"]
   
+  avatar.unshift("Blood Bending!")
+  puts avatar.inspect
 end
 
 def remove_element_from_end_of_array(array)
